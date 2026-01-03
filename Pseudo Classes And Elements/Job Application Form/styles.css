@@ -1,0 +1,63 @@
+body{
+background-color:pink;
+}
+
+.container{
+  width: 80%;
+  max-width: 600px;
+  background-color: #ffff;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 0 15px gray;
+  margin: 60px auto;
+  padding: 25px 25px;
+}
+
+label{
+  font-family: "sans-serif";
+  font-weight: normal;
+}
+
+input , textarea{
+  margin: 10px 20px;
+  display: block;
+  padding: 2px;
+}
+
+button{
+  display: block;
+  margin: 10px auto;
+  height: 43px;
+  width: 85px;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 2px; 
+  cursor: pointer;
+  background-color: white; 
+}
+
+input:focus,textarea:focus{
+  border-color: lightblue;
+  border-radius: 2px;
+}
+
+input:invalid, select:invalid, textarea:invalid{
+  border-color: red;
+  border-radius: 5px;
+}
+
+input:valid, select:valid, textarea:valid{
+  border-color: green;
+ border-radius: 5px;
+}
+
+.radio-group{
+  border-radius: 10px;
+  margin: 10px 20px;
+}
+
+button:hover{
+  background-color: pink;
+}
