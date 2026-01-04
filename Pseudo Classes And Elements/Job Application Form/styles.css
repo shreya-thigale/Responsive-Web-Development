@@ -61,3 +61,18 @@ input:valid, select:valid, textarea:valid{
 button:hover{
   background-color: pink;
 }
+
+input:first-of-type {
+  border-radius: 15px;
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: blue;
+  background-color: lightblue;
+  box-shadow: 0 0 5px blue;
+}
+
+input[type="radio"]:checked + label {
+  color: blue;
+  font-weight: bold;
+}
