@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f4f4f4;
+    width: 100vw;
+    min-height: calc(100vh - 100px);
+}
+
+hr{
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 20px;   
+    margin-bottom: 20px;
+}
+
+section{
+    width: 80%;
+}
