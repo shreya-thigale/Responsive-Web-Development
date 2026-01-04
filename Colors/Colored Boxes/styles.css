@@ -2,11 +2,23 @@ body{
   background-color: #f4f4f4;
 }
 
+.color-grid{
+  height: 40vh;
+  width: 80vw;
+  margin: 50px auto;
+  background-color: rgb(222, 236, 184);
+  border: 2px solid black;
+}
+
 .color-box{
+  display: inline-block;
   height: 100px;
   width: 100px;
   border: 2px solid black;
   border-radius: 50%;
+  margin: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
 .color1{
